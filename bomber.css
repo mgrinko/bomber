@@ -1,0 +1,88 @@
+table {  
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+  border: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.counter {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.restart {
+  padding: 5px 10px;
+  line-height: 18px;
+  border: 1px solid #555;
+  background-color: #ddd;
+  background-image: linear-gradient(0deg, #777 15%, transparent 15%),
+                    linear-gradient(90deg, #aaa 10%, transparent 10%),
+                    linear-gradient(180deg, #aaa 15%, transparent 15%),
+                    linear-gradient(270deg, #777 10%, transparent 10%);
+}
+
+.restart:active {
+  background: #ccc;
+}
+
+td {
+  border: 1px solid #555;
+  padding: 5px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  text-align:center;
+  vertical-align: middle;
+  background-color: #ddd;
+}
+
+.hidden {
+  font-size: 0;
+  background-color: #bbb;
+  background-image: linear-gradient(0deg, #777 15%, transparent 15%),
+                    linear-gradient(90deg, #aaa 15%, transparent 15%),
+                    linear-gradient(180deg, #aaa 15%, transparent 15%),
+                    linear-gradient(270deg, #777 15%, transparent 15%);
+}
+
+.hidden:active {
+  background: #bbb;
+}
+
+.flagged {
+  background-image: url("img/bombflag.png"),
+                    linear-gradient(0deg, #777 15%, transparent 15%),
+                    linear-gradient(90deg, #aaa 15%, transparent 15%),
+                    linear-gradient(180deg, #aaa 15%, transparent 15%),
+                    linear-gradient(270deg, #777 15%, transparent 15%);
+  background-repeat: no-repeat;
+  background-position: 50% 50%, 0 0, 0 0, 0 0, 0 0;
+  background-size: 13px, auto, auto, auto, auto;
+}
+
+.bomb {
+  background-color: #ff5555;  
+}
+
+.num0 {
+  color: #ddd;
+}
+
+.num1 {
+  color: blue;
+}
+
+.num2 {
+  color: green;
+}
+
+.num3 {
+  color: red;
+}
